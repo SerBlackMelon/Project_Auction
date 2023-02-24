@@ -1,445 +1,178 @@
 /* border: 3px solid white; */
+<!DOCTYPE html>
+<html lang="en">
 
-.container {
-  max-width: 1250px;
-  margin: 0 auto;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karantina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<body>
+    <header>
+        <div class="container">
+            <ul class="first-ul">
+                <a href="" target="_blank">Home</a>
+                <a href="" target="_blank">Browse</a>
+                <a href="" target="_blank">Customers</a>
+            </ul>
+            <img class="main-logo" src="picture/Logo.png" alt="Logo" width=250.1px;>
+            <ul class="second-ul">
+                <a href="" target="_blank">Log In</a>
+                <a href="" target="_blank">Sign Up</a>
+            </ul>
+        </div>
+    </header>
 
-body {
-  background-color: #333745;
-}
+    <!--------------- End of header -------------->
 
-header {
-  background-color: #00a6fb;
-}
+    <main>
+        <section class="section-one">
+            <div class="welcome">
+                <li class="wh">
+                    <h1>Welcome to Hecane the real time Auction Website</h1>
+                </li>
+                <li class="welcome-text">
+                    <h3>Auctions on our website are a great way to sell your items.
+                        We have many customers that are eager to see what you have for sale!
+                    </h3>
+                </li>
+            </div>
+            <div class="st">
+                <h2>Start Here</h1>
+            </div>
+        </section>
 
-header > .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+        <!--------------- End of Section-one -------------->
 
-header a {
-  background-color: #ffffff;
-  list-style: none;
-  padding: 5px 15px;
-  margin: 5px 5px;
-  cursor: pointer;
-  transition: 0.1s;
-  /* border-radius: 30px; */
-}
-header a:hover {
-  background-color: rgba(255, 255, 255, 0.685);
-}
+        <section class="infomation">
+            <img class="image2" src="picture/MainPageBackground2.png"
+                alt="A lady sit while working on laptop with a coffee" width="730" height="402">
+            <div class="info-text">
+                <h4>Our webpage will forcus on giving you the best items you could possibly buy!</h4>
+                <h4>Try to bargain so you can get a cheap price, our website has a chat
+                    for talking to sellers while you stay in the room.</h4>
+                <h3>Good luck!</h3>
+            </div>
+        </section>
 
-.first-ul {
-  padding: 20px;
-}
+        <!--------------- End of infomation ---------------->
 
-.second-ul {
-  padding-left: 130px;
-}
+        <section class="most_popular">
+            <div class="popular">
+                <h3>Best sellers!</h3>
+            </div>
+            <div class="mp-text">
+                <div class="mpt1">
+                    <img src="picture/Section2P1.png" width="250" height="200">
+                    <div class="mp-text1">
+                        <h3>1,990 USD</h3>
+                        <h3>Time left 1.45.54/h</h3>
+                    </div>
+                    <div class="chat1">
+                        <h2>Chat</h2>
+                        <div class="chat-popular1">
+                            <h3>Ben:cool</h3>
+                            <h3> Pampam : what is this</h3>
+                            <h3> TJ : this prize is crazy</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="mpt2">
+                    <img src="picture/Section2P2.png" width="250" height="200">
+                    <div class="mp-text2">
+                        <h3>Sold to Deaw!</h3>
+                        <h3>Time left -/h</h3>
+                    </div>
+                    <div class="chat2">
+                        <h2>Chat</h2>
+                        <div chat-popular2>
+                            <h3>AI :how is this even here</h3>
+                            <h3>Jonh :this is one of the best out there</h3>
+                            <h3>Deaw : yes! I got it</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-.main-logo {
-  width: 200px;
-  margin-bottom: -100px;
-  position: center;
-}
+        <!------------------ End of Popular -------------------->
 
-.hero-image {
-  background-image: url("Overall_background.png"); /* The image used */
-  background-position: center; /* Center the image */
-  background-repeat: repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
+        <section class="top_seller">
+            <h3>Sold recently</h3>
+            <div class="main-info-for-tp">
+                <img src="picture/Section3P1.png" width="300" height="250">
+                <h3>The final price is 1,050,000 USD</h3>
+            </div>
 
-/* <---------------End header--------------> */
+        </section>
 
-.section-one {
-  background-image: url("picture/Mainpagebackground1.png");
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-  max-width: 1250px;
-  margin: 0 auto;
-  text-align: center;
-  /* border: 4px;
-border-style: solid; */
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
+        <!---------------- End of Top Seller ------------------>
 
-.welcome {
-  background: rgba(209, 209, 209, 0.685);
-}
+        <section class="promotion">
+            <div class="pm">
+                <h3>Promotion</h3>
+            </div>
+            <div class="promotion-picture">
+                <div class="promotion-p1">
+                    <img src="picture/Section4P1.png" alt="Don't miss!" width="250" height="200">
+                    <img src="picture/Section4P2.png" alt="Free shiping" width="600" height="304">
+                    <img src="picture/Section4P3.png" alt="20% off" width="250" height="250">
+                </div>
+                <div class="promotion-p2">
+                    <img src="picture/Section4P4.png" alt="And many more" width="530" height="250">
+                </div>
+            </div>
+            <div class="promotion-text">
+                <p class="exmarks">!!</p>
+                <h2>Click here to find out what else</h2>
+                <p class="exmarks">!!</p>
+            </div>
+        </section>
+    </main>
 
-.wh > h1 {
-  padding-bottom: 20px;
-}
+    <!---------------- End of Promotion------------------>
 
-.section-one > h3 {
-  margin: auto 150px;
-}
+    <footer>
+        <div class="footer-about-us">
+            <h3>About us</h3>
+            <div class="line">
+            </div>
+            <h3>Term and policy</h3>
+            <h3>Contact us</h3>
+        </div>
+        <div class="footer-our-team">
+            <h3>Team</h3>
+            <div class="line">
+            </div>
+            <h3>Future plan</h3>
+            <h3>Term</h3>
+            <h3>Policy</h3>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <div class="line">
+            </div>
+            <h3>#Hecate_Auction</h3>
+            <img src="picture/facebook.svg" alt="facebook icon" width="50" height="50" />
+            <img src="picture/IG.png" alt="Instragram iconwidth=" 50" height="50">
+            <img src="picture/Twich.png" alt="Twich icon" width="50" height="50">
+            <img src="picture/Tictoc.png" alt="Tictoc icon" width="50" height="50">
+            <div class="number">
+                <h3>#66+ 0954916464</h3>
+                <img src="picture/Phone.png" alt="Phone icon" width="50" height="50">
+            </div>
+        </div>
+    </footer>
+</body>
 
-.st {
-  background-color: rgb(255, 255, 255);
-  border-radius: 30px;
-  margin: 50px 550px;
-  cursor: pointer;
-  transition: 0.1s;
-}
-.st:hover {
-  background-color: rgba(255, 255, 255, 0.685);
-}
+</html>
 
-/* <---------------End Section1--------------> */
+<!---------------- End of footer ------------------>
 
-.infomation {
-  background-image: url("picture/Background picture/Overall_background.png");
-  /* background-position: center; */
-  background-repeat: repeat;
-  background-size: cover;
-  max-width: 1250px;
-  max-width: 1250px;
-  margin: 0 auto;
-  /* border: 4px;
-border-style: solid;
-border-color: red; */
-}
-
-.image2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* border: 4px;
-border-style: solid;
-border-color: red; */
-}
-
-.info-text {
-  text-align: center;
-  background: rgba(255, 255, 255, 0.685);
-  margin: auto 450px;
-  padding: 25px;
-  border-radius: 40px;
-  position: relative;
-  top: -191px;
-  left: 191px;
-}
-
-.info-text > h4 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/* <---------------End Infomation--------------> */
-
-.most_popular {
-  background-image: url("picture/Background picture/Overall_background.png");
-  /* background-position: center; */
-  background-repeat: repeat;
-  background-size: cover;
-  max-width: 1250px;
-  max-width: 1250px;
-  margin: 0 auto;
-  /* border: 4px;
-border-style: solid;
-border-color: red; */
-}
-
-.popular {
-  text-align: center;
-  background-color: #bfdb38;
-  border: 2px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 15px;
-  margin: auto 100px;
-  margin-top: -150px;
-  margin-bottom: 50px;
-  padding: 10px;
-}
-
-.mpt1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 100px auto;
-  background-color: #414555;
-}
-
-.mp-text1 {
-  background-color: #635985;
-  padding: 1px 336px;
-  /* border: 1px;
-border-style: solid; */
-}
-.mp-text1 > h3 {
-  padding-top: 30px;
-  /* border: 1px;
-border-style: solid; */
-}
-
-.chat1 {
-  background-color: #1f8a70;
-  text-align: start;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  /* border: 3px;
-border-style: solid; */
-}
-
-.chat1 > h2 {
-  text-align: center;
-}
-
-.chat-popular1 {
-  /* border: 3px;
-border-style: solid; */
-  padding-left: 5px;
-}
-
-.mpt2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #414555;
-}
-
-.mp-text2 {
-  background-color: #635985;
-  padding: 1px 297px;
-  /* border: 1px;
-border-style: solid; */
-}
-.mp-text2 > h3 {
-  padding-top: 30px;
-  /* border: 1px;
-border-style: solid; */
-}
-
-.chat2 {
-  background-color: #1f8a70;
-  text-align: start;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  /* border: 3px;
-border-style: solid; */
-}
-
-.chat2 > h2 {
-  text-align: center;
-}
-
-.chat-popular2 {
-  border: 3px;
-  border-style: solid;
-  /* padding-left: ; */
-}
-
-/* <---------------End Most popular--------------> */
-
-.top_seller {
-  background-image: url("picture/Background picture/Overall_background.png");
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-  max-width: 1250px;
-  max-width: 1250px;
-  margin: 0 auto;
-  padding: 50px auto;
-  border: 3px;
-  border-style: solid;
-  border-color: white;
-}
-
-.top_seller > h3 {
-  text-align: center;
-  background-color: #bfdb38;
-  border: 2px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 15px;
-  margin: auto 100px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 10px;
-}
-
-.main-info-for-tp {
-  background-color: #333745;
-  /* border: 3px;
-  border-style: solid; */
-  margin-bottom: 100px;
-  margin-top: -100;
-  display: flex;
-  padding: auto 125px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-info-for-tp > h3 {
-  /* border: 4px;
-  border-style: solid; */
-  padding: 40px 344px;
-  background-color: #635985;
-}
-
-/* <---------------End Topseller--------------> */
-
-.promotion {
-  background-color: #ffffff;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-  max-width: 1250px;
-  max-width: 1250px;
-  margin: 0 auto;
-  border: 3px;
-  border-style: solid;
-  border-color: white;
-}
-
-.pm {
-  text-align: center;
-  background-color: #bfdb38;
-  border: 2px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 15px;
-  margin: auto 100px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 10px;
-}
-.promotion-picture {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.promotion-p1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.promotion-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.exmarks {
-  font-family: Karantina;
-  font-size: 6rem;
-}
-
-/* <---------------End Promotion--------------> */
-
-footer {
-  background-color: #0542c7;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
-  padding-bottom: 150px;
-  padding-top: 50px;
-}
-
-.line {
-  width: 10cm;
-  height: 2px;
-  background-color: white;
-}
-
-.footer-about-us {
-  color: rgb(248, 248, 248);
-}
-
-.footer-about-us > h3 {
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
-.footer-our-team {
-  color: rgb(248, 248, 248);
-}
-
-.footer-our-team > h3 {
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
-.footer-contact {
-  color: rgb(248, 248, 248);
-}
-.footer-contact > h3 {
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-.footer-contact > img {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.number {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-.number > img {
-  margin-left: 5px;
-}
-
-.exmarks {
-  font-family: Karantina;
-  font-size: 6rem;
-}
-
-/* <---------------End everthing :D --------------> */
-
-/* |Down here is my note| */
-
-/* .image1 {
-  position: absolute;
-  top: ;
-  left: ;
-  border: 1px solid #000000;
-}
-.image2 {
-  position: relative;
-  top: 487px;
-  left: 0px;
-  border: 1px solid #000000;
-  width: ;
-}
-image is how to make a image side in css 
-border: 4px;
-  border-style: solid;
-  border-color: red;
-border-radius: 30px;
-border here show a way to use a border that i might forgot
-.info-text{
-text-align: center;
-background: rgba(255, 255, 255, 0.685);
-margin: auto 450px;
-padding: 25px;
-border-radius: 40px;
-position: relative;
-top: -191px;
-left: 191px;
-}
-info-text show how to make a text to be on top of any picture
-*/
+<!---------------- End ----------------->
