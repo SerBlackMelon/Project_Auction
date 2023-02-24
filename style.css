@@ -1,0 +1,440 @@
+/* border: 3px solid white; */
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333745;
+}
+
+header {
+  background-color: #00a6fb;
+}
+
+header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  background-color: #fffff0;
+  list-style: none;
+  padding: 5px 15px;
+  margin: 5px 5px;
+  /* border-radius: 30px; */
+}
+
+.first-ul {
+  padding: 20px;
+}
+
+.second-ul {
+  padding-left: 130px;
+}
+
+.main-logo {
+  width: 200px;
+  margin-bottom: -100px;
+  position: center;
+}
+
+.hero-image {
+  background-image: url("Overall_background.png"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* <---------------End header--------------> */
+
+.section-one {
+  background-image: url("picture/Mainpagebackground1.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  max-width: 1250px;
+  margin: 0 auto;
+  text-align: center;
+  /* border: 4px;
+border-style: solid; */
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.welcome {
+  background: rgba(209, 209, 209, 0.685);
+}
+
+.wh > h1 {
+  padding-bottom: 20px;
+}
+
+.section-one > h3 {
+  margin: auto 150px;
+}
+
+.st {
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  margin: 50px 550px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.st:hover {
+  background-color: rgba(255, 255, 255, 0.685);
+}
+
+/* <---------------End Section1--------------> */
+
+.infomation {
+  background-image: url("picture/Background picture/Overall_background.png");
+  /* background-position: center; */
+  background-repeat: repeat;
+  background-size: cover;
+  max-width: 1250px;
+  max-width: 1250px;
+  margin: 0 auto;
+  /* border: 4px;
+border-style: solid;
+border-color: red; */
+}
+
+.image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 4px;
+border-style: solid;
+border-color: red; */
+}
+
+.info-text {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.685);
+  margin: auto 450px;
+  padding: 25px;
+  border-radius: 40px;
+  position: relative;
+  top: -191px;
+  left: 191px;
+}
+
+.info-text > h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* <---------------End Infomation--------------> */
+
+.most_popular {
+  background-image: url("picture/Background picture/Overall_background.png");
+  /* background-position: center; */
+  background-repeat: repeat;
+  background-size: cover;
+  max-width: 1250px;
+  max-width: 1250px;
+  margin: 0 auto;
+  /* border: 4px;
+border-style: solid;
+border-color: red; */
+}
+
+.popular {
+  text-align: center;
+  background-color: #bfdb38;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin: auto 100px;
+  margin-top: -150px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.mpt1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px auto;
+  background-color: #414555;
+}
+
+.mp-text1 {
+  background-color: #635985;
+  padding: 1px 336px;
+  /* border: 1px;
+border-style: solid; */
+}
+.mp-text1 > h3 {
+  padding-top: 30px;
+  /* border: 1px;
+border-style: solid; */
+}
+
+.chat1 {
+  background-color: #1f8a70;
+  text-align: start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* border: 3px;
+border-style: solid; */
+}
+
+.chat1 > h2 {
+  text-align: center;
+}
+
+.chat-popular1 {
+  /* border: 3px;
+border-style: solid; */
+  padding-left: 5px;
+}
+
+.mpt2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #414555;
+}
+
+.mp-text2 {
+  background-color: #635985;
+  padding: 1px 297px;
+  /* border: 1px;
+border-style: solid; */
+}
+.mp-text2 > h3 {
+  padding-top: 30px;
+  /* border: 1px;
+border-style: solid; */
+}
+
+.chat2 {
+  background-color: #1f8a70;
+  text-align: start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* border: 3px;
+border-style: solid; */
+}
+
+.chat2 > h2 {
+  text-align: center;
+}
+
+.chat-popular2 {
+  border: 3px;
+  border-style: solid;
+  /* padding-left: ; */
+}
+
+/* <---------------End Most popular--------------> */
+
+.top_seller {
+  background-image: url("picture/Background picture/Overall_background.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  max-width: 1250px;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 50px auto;
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+}
+
+.top_seller > h3 {
+  text-align: center;
+  background-color: #bfdb38;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin: auto 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.main-info-for-tp {
+  background-color: #333745;
+  /* border: 3px;
+  border-style: solid; */
+  margin-bottom: 100px;
+  margin-top: -100;
+  display: flex;
+  padding: auto 125px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-info-for-tp > h3 {
+  /* border: 4px;
+  border-style: solid; */
+  padding: 40px 344px;
+  background-color: #635985;
+}
+
+/* <---------------End Topseller--------------> */
+
+.promotion {
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  max-width: 1250px;
+  max-width: 1250px;
+  margin: 0 auto;
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+}
+
+.pm {
+  text-align: center;
+  background-color: #bfdb38;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin: auto 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+.promotion-picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.promotion-p1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.promotion-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.exmarks {
+  font-family: Karantina;
+  font-size: 6rem;
+}
+
+/* <---------------End Promotion--------------> */
+
+footer {
+  background-color: #0542c7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+
+.line {
+  width: 10cm;
+  height: 2px;
+  background-color: white;
+}
+
+.footer-about-us {
+  color: rgb(248, 248, 248);
+}
+
+.footer-about-us > h3 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.footer-our-team {
+  color: rgb(248, 248, 248);
+}
+
+.footer-our-team > h3 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.footer-contact {
+  color: rgb(248, 248, 248);
+}
+.footer-contact > h3 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.footer-contact > img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.number {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.number > img {
+  margin-left: 5px;
+}
+
+.exmarks {
+  font-family: Karantina;
+  font-size: 6rem;
+}
+
+/* <---------------End everthing :D --------------> */
+
+/* |Down here is my note| */
+
+/* .image1 {
+  position: absolute;
+  top: ;
+  left: ;
+  border: 1px solid #000000;
+}
+.image2 {
+  position: relative;
+  top: 487px;
+  left: 0px;
+  border: 1px solid #000000;
+  width: ;
+}
+image is how to make a image side in css 
+border: 4px;
+  border-style: solid;
+  border-color: red;
+border-radius: 30px;
+border here show a way to use a border that i might forgot
+.info-text{
+text-align: center;
+background: rgba(255, 255, 255, 0.685);
+margin: auto 450px;
+padding: 25px;
+border-radius: 40px;
+position: relative;
+top: -191px;
+left: 191px;
+}
+info-text show how to make a text to be on top of any picture
+*/
